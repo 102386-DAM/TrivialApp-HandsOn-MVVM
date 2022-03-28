@@ -1,0 +1,198 @@
+C:db
+Q:An ________ is a set of entities of the same type that share the same properties, or attributes.
+AT:Entity set.
+AF:Attribute set.
+AF:Relation set.
+AF:Entity model.
+C:db
+Q:Entity is a _________.
+AF:Object of relation.
+AF:Present working model.
+AT:Thing in real world.
+AF:Model of relation.
+C:db
+Q:The descriptive property possessed by each entity set is _________.
+AF:Entity
+AT:Attribute
+AF:Relation
+AF:Model
+C:db
+Q:The attribute name could be structured as an attribute consisting of first name, middle initial, and last name. This type of attribute is called.
+AF:Simple attribute
+AT:Composite attribute
+AF:Multivalued attribute
+AF:Derived attribute
+C:db
+Q:Which of the join operations do not preserve non matched tuples?
+AF:Left outer join
+AF:Right outer join
+AT:Inner join
+AF:Natural join
+C:db
+Q: In SQL the statement select * from R, S is equivalent to
+AF:Select * from R natural join S
+AT:Select * from R cross join S
+AF:Select * from R union join S
+AF:Select * from R inner join S
+C:db
+Q: Which of the following statements contains an error?
+AF:Select * from emp where empid = 10003;
+AF:Select empid from emp where empid = 10006;
+AF:Select empid from emp;
+AT:Select empid where empid = 1009 and lastname = ‘GELLER’;
+C:os
+Q:The minimum number of frames to be allocated to a process is decided by the ____________
+AF:the amount of available physical memory
+AF:operating System
+AT:instruction set architecture
+AF:none of the mentioned
+C:os
+Q:The minimum number of frames to be allocated to a process is decided by the ____________
+AF:the amount of available physical memory
+AF:operating System
+AT:instruction set architecture
+AF:none of the mentioned
+C:os
+Q:Consider a machine in which all memory reference instructions have only one memory address, for them we need at least _____ frame(s).
+AF:one
+AT:two
+AF:three
+AF:none of the mentioned
+C:os
+Q:The time required to create a new thread in an existing process is ___________
+AF:greater than the time required to create a new process
+AT:less than the time required to create a new process
+AF:equal to the time required to create a new process
+AF:none of the mentioned
+C:os
+Q:Which one of the following is not a valid state of a thread?
+AF:running
+AT:parsing
+AF:ready
+AF:blocked
+C:os
+Q:The address loaded into the memory address register of the memory is referred to as ____________
+AT:Physical address
+AF:Logical address
+AF:Neither physical nor logical
+AF:None of the mentioned
+C:patterns
+Q:Which of the following pattern refers to creating duplicate object while keeping performance in mind?
+AF:Builder Pattern
+AF:Bridge Pattern
+AT:Prototype Pattern
+AF:Filter Pattern
+C:patterns
+Q:Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. It lets subclasses redefine certain steps of an algorithm without changing the algorithm structure.
+AF:Chain of responsibility
+AF:Interpretor
+AT:Template method
+AF:Prototype
+C:patterns
+Q:Which design pattern provides a single class which provides simplified methods required by client and delagates call to those methods?
+AF:Adapter pattern
+AF:Builder pattern
+AT:Facade pattern
+AF:Prototype
+C:patterns
+Q:In which of the following pattern, a visitor class is used which changes the executing algorithm of an element class?
+AT:Visitor pattern
+AF:MVC pattern
+AF:MVVM pattern
+AF:Composite Entity Pattern
+C:patterns
+Q:Which of the following Chooses and standardizes patterns for a problem domain promotes software reuse and, hence, quality and productivity?
+AF:Promoting Communication
+AF:Streamlining Documentation
+AF:Increasing Development Efficiency
+AT:Supporting Software Reuse
+C:patterns
+Q:What does MVC pattern stands for?
+AF:Mock View Control
+AT:Model View Controller
+AF:Mock View Class
+AF:Model View Class
+C:patterns
+Q: Which design pattern works on data and action taken based on data provided?
+AT:Command pattern
+AF:Singleton pattern
+AF:MVC pattern
+AF:Facade pattern
+C:patterns
+Q: Which of the below is not a valid design pattern?
+AF:Singleton
+AF:Factory
+AF:Command
+AT:Java
+C:patterns
+Q:Which design pattern provides a single class which provides simplified methods required by client and delegates call to those methods?
+AF:Adapter pattern
+AF:Builder pattern
+AT:Facade pattern
+AF:Prototype pattern
+C:patterns
+Q:Which design pattern suggests multiple classes through which request is passed and multiple but only relevant classes carry out operations on the request?
+AF:Singleton pattern
+AT:Chain of responsibility pattern
+AF:State pattern
+AT:Bridge pattern
+C:net
+Q:What layer in the TCP/IP stack is equivalent to the Transport layer of the OSI model?
+AF:Application
+AT:Host to host
+AF:Internet
+AF:Network Access
+C:net
+Q:You want to implement a mechanism that automates the IP configuration, including IP address, subnet mask, default gateway, and DNS information. Which protocol will you use to accomplish this?
+AF:SMTP
+AF:SNMP
+AT:DHCP
+AF:ARP
+C:net
+Q:The DoD model (also called the TCP/IP stack) has four layers. Which layer of the DoD model is equivalent to the Network layer of the OSI model?
+AF:Application
+AF:Host to host
+AT:Internet
+AF:Network Access
+C:net
+Q:Which of the following protocols uses both TCP and UDP?
+AF:FTP
+AF:SMTP
+AF:Telnet
+AT:DNS
+C:net
+Q:Length of Port address in TCP/IP is _________
+AF:4bit long
+AT:16bit long
+AF:32bit long
+AF:8 bit long
+C:net
+Q:TCP/IP layer is equivalent to combined Session, Presentation and ______
+AF:Network layer
+AT:Application layer
+AF:Transport layer
+AF:Physical layer
+C:net
+Q:How many levels of addressing is provided in TCP/IP protocol?
+AF:One
+AF:Two
+AF:Three
+AT:Four
+C:net
+Q:Virtual terminal protocol is an example of _______
+AF:Network layer
+AT:Application layer
+AF:Transport layer
+AF:Physical layer
+C:net
+Q:TCP/IP is related to _______
+AT:ARPANET
+AF:OSI
+AF:DECNET
+AF:ALOHA
+C:net
+Q:A device operating at network layer is called ____
+AT:Router
+AF:Equalizer
+AF:Bridge
+AF:Repeater
